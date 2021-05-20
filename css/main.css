@@ -1,0 +1,30 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: green;
+}
+
+.main-footer {
+  background-color: gray;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  widows: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0px;
+  padding: 0px;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
